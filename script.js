@@ -11,7 +11,7 @@ const products = [
     price: 8500,
     tag: "Mais vendido",
     description: "Corte confortável para usar todos os dias.",
-    image: "imagem/t-shirtcasual (1).jpg"
+    image: "t-shirtcasual (1).jpg"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const products = [
     price: 32000,
     tag: "",
     description: "Uma camada extra com estilo descontraído.",
-    image: "imagem/casacorural.jpg"
+    image: "casacorural.jpg"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const products = [
     price: 7500,
     tag: "",
     description: "O detalhe final para um visual simples.",
-    image: "imagem/chapeu.jpg"
+    image: "chapeu.jpg"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const products = [
     price: 14500,
     tag: "",
     description: "Versátil, fácil de combinar e confortável.",
-    image: "imagem/camisa.jpg"
+    image: "camisa.jpg"
   },
   {
     id: 6,
@@ -65,7 +65,7 @@ const products = [
     price: 22000,
     tag: "",
     description: "Um essencial para dias mais frescos.",
-    image: "imagem/essencial.jpg"
+    image: "essencial.jpg"
   },
   {
     id: 8,
@@ -74,7 +74,7 @@ const products = [
     price: 9500,
     tag: "",
     description: "Um acessório discreto com personalidade.",
-    image: "imagem/cartier.jpg"
+    image: "cartier.jpg"
   }
 ];
 
