@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descobre roupa, ténis e acessórios com estilo. Faz a tua encomenda pelo WhatsApp.">
+  <title>VIBE — Moda para o teu estilo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <button class="icon-button menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a class="brand" href="#" aria-label="VIBE página inicial">
+      <span class="brand-name">VIBE</span>
+      <span class="brand-subtitle">STYLE HOUSE</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#novidades">Novidades</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#essenciais">Essenciais</a>
+      <a href="#sobre">A nossa vibe</a>
+    </nav>
+
+    <a class="header-order" href="#essenciais"><span>Explorar</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="novidades">
+      <img class="hero-image" src="imagem/principal.jpg" alt="Coleção de moda urbana">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">NOVA COLEÇÃO · 2026</p>
+        <h1>O teu estilo.<br><span>As tuas regras.</span></h1>
+        <p class="hero-copy">Peças que combinam contigo, todos os dias.</p>
+        <a class="button button-light" href="#essenciais">Descobrir coleção</a>
+      </div>
+      <div class="hero-note"><span class="note-line"></span> VESTE A TUA VIBE</div>
+    </section>
+
+    <section class="category-section section-wrap" id="categorias">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ENCONTRA O TEU ESTILO</p>
+          <h2>Explora por categoria</h2>
+        </div>
+        <p class="section-aside">Os essenciais para completar<br>o teu look.</p>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card category-clothes" href="#essenciais" data-category-link="Roupa">
+          <img src="imagem/roupas.jpg" alt="T-shirts e roupa">
+          <span class="category-overlay"></span>
+          <span class="category-label"><small>01 / VESTUÁRIO</small><strong>Roupa</strong><span>Explorar ↗</span></span>
+        </a>
+
+        <a class="category-card" href="#essenciais" data-category-link="Ténis">
+          <img src="imagem/Ténis.jpg" alt="Ténis desportivos">
+          <span class="category-overlay"></span>
+          <span class="category-label"><small>02 / CALÇADO</small><strong>Ténis</strong><span>Explorar ↗</span></span>
+        </a>
+        <a class="category-card" href="#essenciais" data-category-link="Casacos">
+          <img src="imagem/Casacos.jpg" alt="Casaco de estilo urbano">
+          <span class="category-overlay"></span>
+          <span class="category-label"><small>03 / CAMADAS</small><strong>Casacos</strong><span>Explorar ↗</span></span>
+        </a>
+        <a class="category-card" href="#essenciais" data-category-link="Acessórios">
+          <img src="imagem/acessorios.jpg" alt="Boné e acessórios">
+          <span class="category-overlay"></span>
+          <span class="category-label"><small>04 / DETALHES</small><strong>Acessórios</strong><span>Explorar ↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="products-section section-wrap" id="essenciais">
+      <div class="section-heading products-heading">
+        <div>
+          <p class="eyebrow">ESCOLHAS DA CASA</p>
+          <h2>Os essenciais</h2>
+        </div>
+        <div class="product-controls">
+          <label class="sr-only" for="categoryFilter">Filtrar por categoria</label>
+          <select id="categoryFilter">
+            <option value="Todos">Todas as peças</option>
+            <option value="Roupa">Roupa</option>
+            <option value="Ténis">Ténis</option>
+            <option value="Casacos">Casacos</option>
+            <option value="Acessórios">Acessórios</option>
+          </select>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="catalog-note">As peças e os preços são exemplos. Personaliza o catálogo com os produtos reais da loja.</p>
+    </section>
+
+    <section class="lookbook section-wrap">
+      <div class="lookbook-copy">
+        <p class="eyebrow">LOOK COMPLETO</p>
+        <h2>Combina.<br>Experimenta.<br><em>Destaca-te.</em></h2>
+        <p>O segredo está nos detalhes. Junta as tuas peças favoritas e cria um visual só teu.</p>
+        <a class="button button-dark" href="#essenciais">Montar o meu look <span>→</span></a>
+      </div>
+      <div class="lookbook-image">
+        <img src="imagem/Inspiração.jpg" alt="Inspiração de looks de moda">
+        <span class="image-caption">A TUA VIBE, DO TEU JEITO.</span>
+      </div>
+    </section>
+
+    <section class="values-section section-wrap" id="sobre">
+      <div class="values-intro">
+        <p class="eyebrow">MAIS DO QUE ROUPA</p>
+        <h2>Estilo para<br>viver à tua maneira.</h2>
+      </div>
+      <div class="value-item"><span class="value-number">01</span><div><h3>Escolha com atitude</h3><p>Peças para expressares quem és, sem complicar.</p></div></div>
+      <div class="value-item"><span class="value-number">02</span><div><h3>Encomenda simples</h3><p>Escolhe os teus produtos e termina o pedido no WhatsApp.</p></div></div>
+      <div class="value-item"><span class="value-number">03</span><div><h3>Contacto direto</h3><p>Confirma tamanhos, disponibilidade, pagamento e entrega connosco.</p></div></div>
+    </section>
+
+    <section class="club-banner">
+      <div><p class="eyebrow light">FAZ PARTE DA VIBE</p><h2>O teu próximo look<br>começa aqui.</h2></div>
+      <a class="button button-light" id="footerWhatsApp" href="#" target="_blank" rel="noopener">Falar connosco</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#">
+      <span class="brand-name">VIBE</span>
+      <span class="brand-subtitle">STYLE HOUSE</span>
+    </a>
+    <p>Moda para o teu dia a dia.</p>
+    <div class="footer-links"><a href="#categorias">Categorias</a><a href="#essenciais">Produtos</a><a id="footerContact" href="#" target="_blank" rel="noopener">WhatsApp</a></div>
+    <small>© <span id="year"></span> VIBE STYLE HOUSE. Todos os direitos reservados.</small>
+  </footer>
+
+  <a class="floating-whatsapp" id="floatingWhatsApp" href="#" target="_blank" rel="noopener" aria-label="Contactar pelo WhatsApp">WA</a>
+</body>
+</html>
